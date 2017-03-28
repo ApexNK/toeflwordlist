@@ -14,7 +14,7 @@
       props: {
         title: {
           type: String,
-          default: 'TOEFL召唤授 连连看'
+          default: 'APEX召唤授 连连看'
         }
       },
       created () {
@@ -26,7 +26,7 @@
         },
         share () {
           soshm.popIn({
-            title: 'TOEFL召唤授 连连看',
+            title: 'APEX召唤授 连连看',
             url: 'http://www.newsater.org/toefl/',
             pic: 'http://www.newsater.org/toefl/static/img/apexLogo.jpg',
             sites: ['weixin', 'weixintimeline', 'weibo', 'yixin', 'qzone', 'tqq', 'qq']
